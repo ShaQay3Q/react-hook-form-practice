@@ -7,7 +7,7 @@ import Form from "./Form";
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
 		{/* <App /> */}
-		<div className='bg-fuchsia-400 py-4 px-5 max-w-fit'>
+		<div className='bg-fuchsia-400 py-4 px-5 min-w-fit max-w-md border-2 border-black'>
 			<Form />
 		</div>
 	</StrictMode>
